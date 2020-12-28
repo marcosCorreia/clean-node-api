@@ -1,3 +1,3 @@
-function test3() {
+function test4() {
   return {};
-}
+};
