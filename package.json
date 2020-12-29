@@ -1,17 +1,17 @@
 {
   "name": "clean-node-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Construindo uma API Rest em NodeJS Utilizando TDD, Clean Architeture e Design Patterns.",
+  "author": "Marcos Correia",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
-    "test:staged":"jest --passWithNoTests"
+    "test": "jest --watchAll --silent --colors --noStackTrace",
+    "test:staged":"jest --passWithNoTests --findRelatedTests --silent --noStackTrace"
   },
   "standard": {
     "env": ["jest"]
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "husky": "4.0.0-beta.5",
     "jest": "^24.9.0",
