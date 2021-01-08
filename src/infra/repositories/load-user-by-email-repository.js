@@ -1,4 +1,3 @@
-
 module.exports = class LoadUserByEmailRepository {
   constructor (userModel) {
     this.userModel = userModel
