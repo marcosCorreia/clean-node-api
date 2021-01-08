@@ -4,8 +4,9 @@
   "description": "Construindo uma API Rest em NodeJS Utilizando TDD, Clean Architeture e Design Patterns.",
   "author": "Marcos Correia",
   "license": "ISC",
-  "main": "index.js",
+  "main": "src/main/index.js",
   "scripts": {
+    "start": "node src/main/index.js",
     "test": "jest --silent --colors --noStackTrace  --passWithNoTests",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.3",
     "validator": "^13.5.2"
