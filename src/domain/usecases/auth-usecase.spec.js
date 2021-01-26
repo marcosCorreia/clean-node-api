@@ -174,6 +174,7 @@ describe('Auth UseCase', () => {
     const tokenGenerator = makeTokenGenerator()
     const suts = [].concat(
       new AuthUseCase(),
+      new AuthUseCase({}),
       new AuthUseCase({
         loadUserByEmailRepository: invalid
       }),
